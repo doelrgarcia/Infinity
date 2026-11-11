@@ -1,0 +1,388 @@
+{
+  "Packages": [
+    {
+      "Id": "llama-vulkan",
+      "Label": "Vulkan local inference runtime",
+      "Version": "b9174",
+      "LicenseUrl": "https://github.com/ggml-org/llama.cpp/blob/b9174/LICENSE",
+      "InstalledBytes": 104699960,
+      "RequiredFiles": [
+        "llama-server.exe",
+        "ggml-base.dll",
+        "ggml-vulkan.dll",
+        "ggml.dll",
+        "llama.dll"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://github.com/ggml-org/llama.cpp/releases/download/b9174/llama-b9174-bin-win-vulkan-x64.zip",
+          "Sha256": "120b9c822f1c55e7e6f05d77743ebfb53a8c622fa8d34fc57847fdb9f628cb7a",
+          "Bytes": 32652377,
+          "Zip": true
+        }
+      ]
+    },
+    {
+      "Id": "codex-cli",
+      "Label": "ChatGPT / Codex CLI",
+      "Version": "0.154.0",
+      "LicenseUrl": "https://github.com/openai/codex/blob/rust-v0.154.0/LICENSE",
+      "InstalledBytes": 321854864,
+      "RequiredFiles": [
+        "codex-x86_64-pc-windows-msvc.exe"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://github.com/openai/codex/releases/download/rust-v0.154.0/codex-x86_64-pc-windows-msvc.exe.zip",
+          "Sha256": "53685f9f6bd171d4bd7d6c2be724fc04f6737a4001eb8471ec59824e5adc8042",
+          "Bytes": 104759949,
+          "Zip": true
+        }
+      ]
+    },
+    {
+      "Id": "cursor-cli",
+      "Label": "Cursor CLI",
+      "Version": "2026.10.22-27dcf5f",
+      "LicenseUrl": "https://cursor.com/terms-of-service",
+      "InstalledBytes": 267399576,
+      "RequiredFiles": [
+        "dist-package/node.exe",
+        "dist-package/index.js"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://downloads.cursor.com/lab/2026.10.22-27dcf5f/windows/x64/agent-cli-package.zip",
+          "Sha256": "864a8f6a22f8c5ebedef8e0ceba529eae9a59b3d7f6fccb75e43e0f5efc3c147",
+          "Bytes": 80207693,
+          "Zip": true
+        }
+      ]
+    },
+    {
+      "Id": "grok-cli",
+      "Label": "Grok CLI",
+      "Version": "1.0.70",
+      "LicenseUrl": "https://x.ai/legal/terms-of-service",
+      "InstalledBytes": 176011920,
+      "RequiredFiles": [
+        "grok.exe"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://x.ai/cli/grok-1.0.70-windows-x86_64.exe",
+          "Sha256": "1e03c16cf2bd4626a79d6b1ea1430f88c38e0c8ec75edd283a60de11296ba326",
+          "Bytes": 176011920,
+          "Path": "grok.exe"
+        }
+      ]
+    },
+    {
+      "Id": "ryzen-runtime",
+      "Label": "AMD Ryzen AI hybrid runtime",
+      "Version": "1.7.0",
+      "LicenseUrl": "https://github.com/lemonade-sdk/ryzenai-server/tree/v1.7.0",
+      "InstalledBytes": 1131444954,
+      "RequiredFiles": [
+        "ryzenai-server.exe"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://github.com/lemonade-sdk/ryzenai-server/releases/download/v1.7.0/ryzenai-server.zip",
+          "Sha256": "1b263dcd7c71bb51819dcda569a10647733da153c53891cfb12d2277466971cf",
+          "Bytes": 569142342,
+          "Zip": true
+        }
+      ]
+    },
+    {
+      "Id": "qwen3-model",
+      "Label": "Qwen3-Coder 30B Q4_K_M model",
+      "Version": "0ca51122012fe4a20dc82988ee58780b008ce4e3",
+      "LicenseUrl": "https://huggingface.co/ggml-org/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "InstalledBytes": 17988419552,
+      "RequiredFiles": [
+        "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://huggingface.co/ggml-org/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/0ca51122012fe4a20dc82988ee58780b008ce4e3/Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+          "Sha256": "f6050b4da22869aa3fb9d94bb3314e9fc5a027d4741c1f97761c387d6b2b2335",
+          "Bytes": 17988419552,
+          "Path": "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf"
+        }
+      ]
+    },
+    {
+      "Id": "qwen25-model",
+      "Label": "Qwen2.5-Coder 7B Q4_K_M model",
+      "Version": "1f629da0c8bed16b9e50cee91c70693650e66c35",
+      "LicenseUrl": "https://huggingface.co/bartowski/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "InstalledBytes": 4683074336,
+      "RequiredFiles": [
+        "Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://huggingface.co/bartowski/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/1f629da0c8bed16b9e50cee91c70693650e66c35/Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf",
+          "Sha256": "1664fccab734674a50763490a8c6931b70e3f2f8ec10031b54806d30e5f956b6",
+          "Bytes": 4683074336,
+          "Path": "Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf"
+        }
+      ]
+    },
+    {
+      "Id": "hybrid-model",
+      "Label": "Llama 3.2 3B hybrid model (complete AMD snapshot)",
+      "Version": "a47bf1a2b9f58f1c501ca1956ef238e5741cd646",
+      "LicenseUrl": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid",
+      "InstalledBytes": 4277300788,
+      "RequiredFiles": [
+        ".gitattributes",
+        "README.md",
+        "chat_template.jinja",
+        "genai_config.json",
+        "genai_config_bkp.json",
+        "model_jit.bin",
+        "model_jit.onnx",
+        "model_jit.onnx.data",
+        "model_jit.pb.bin",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/.gitattributes",
+          "Bytes": 1626,
+          "Path": ".gitattributes",
+          "GitBlobSha1": "7ef310921f1b2dad3f02cd8085cbb4a1400ffff5"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/README.md",
+          "Bytes": 14865,
+          "Path": "README.md",
+          "GitBlobSha1": "50517d7ae0955b714c711ebc5dfa225511abe286"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/chat_template.jinja",
+          "Bytes": 3920,
+          "Path": "chat_template.jinja",
+          "GitBlobSha1": "489f794761afe0ed717bce5c3af3f698cd62feec"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/genai_config.json",
+          "Bytes": 1795,
+          "Path": "genai_config.json",
+          "GitBlobSha1": "070d164fd5663cfdac08a3c6837e2d52014f59ca"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/genai_config_bkp.json",
+          "Bytes": 1978,
+          "Path": "genai_config_bkp.json",
+          "GitBlobSha1": "53c059b2574e147cddc073a96335b7246722cbce"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/model_jit.bin",
+          "Bytes": 1768043520,
+          "Path": "model_jit.bin",
+          "Sha256": "64e050ae8168211ff0f3f79f9ae26999c7184ecf29e200eed3905e7cb00cf92f"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/model_jit.onnx",
+          "Bytes": 305392,
+          "Path": "model_jit.onnx",
+          "Sha256": "eec8b68b720a32d78a645f4ca8a0acb9777565d3d98a1ffa9e3a02530b7a1cd1"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/model_jit.onnx.data",
+          "Bytes": 2491657728,
+          "Path": "model_jit.onnx.data",
+          "Sha256": "6245ae4d0f775efdc0e71b7971844d2cc3442c62f3c157a4b3a98304193dd1ee"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/model_jit.pb.bin",
+          "Bytes": 6938,
+          "Path": "model_jit.pb.bin",
+          "Sha256": "356a3a31fd25d140b3b36b0ba596ee225700791927086c41b39b992849a81e3c"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/special_tokens_map.json",
+          "Bytes": 462,
+          "Path": "special_tokens_map.json",
+          "GitBlobSha1": "14ac239cbf9affca2fd3774c7c5b43607f193cd7"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/tokenizer.json",
+          "Bytes": 17209920,
+          "Path": "tokenizer.json",
+          "Sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "Url": "https://huggingface.co/amd/Llama-3.2-3B-Instruct-onnx-ryzenai-1.7-hybrid/resolve/a47bf1a2b9f58f1c501ca1956ef238e5741cd646/tokenizer_config.json",
+          "Bytes": 52644,
+          "Path": "tokenizer_config.json",
+          "GitBlobSha1": "332db4e83759836e82993341ce3e480366311ed5"
+        }
+      ]
+    },
+    {
+      "Id": "git-runtime",
+      "Label": "Git for Cursor CLI",
+      "Version": "2.56.0.windows.4",
+      "LicenseUrl": "https://git-scm.com/about/free-and-open-source",
+      "InstalledBytes": 96237338,
+      "RequiredFiles": [
+        "cmd/git.exe"
+      ],
+      "Artifacts": [
+        {
+          "Url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/MinGit-2.56.0.4-64-bit.zip",
+          "Sha256": "e3bf78351fe777fba47ddee5950082f8a98bb0f02604fdc7ba3ee2cb68ffa877",
+          "Bytes": 39846926,
+          "Zip": true
+        }
+      ]
+    },
+    {
+      "Id": "msvc-runtime",
+      "Label": "Microsoft Visual C++ x64 runtime (may require administrator approval)",
+      "Version": "14.51.36247.0",
+      "LicenseUrl": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist",
+      "InstalledBytes": 134217728,
+      "RequiredFiles": [
+        "VC_redist.x64.exe"
+      ],
+      "NativeInstaller": "vc-redist-x64",
+      "Artifacts": [
+        {
+          "Url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+          "Sha256": "843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C",
+          "Bytes": 18731856,
+          "Zip": false,
+          "Path": "VC_redist.x64.exe"
+        }
+      ]
+    }
+  ],
+  "Bindings": [
+    {
+      "ProfileId": "qwen3-coder",
+      "ExecutablePackage": "llama-vulkan",
+      "ExecutablePath": "llama-server.exe",
+      "ExecutableCompanions": [
+        "ggml-vulkan.dll",
+        "ggml-cpu-cascadelake.dll",
+        "ggml-rpc.dll",
+        "ggml.dll",
+        "llama.dll",
+        "ggml-cpu-zen4.dll",
+        "mtmd.dll",
+        "ggml-base.dll",
+        "llama-common.dll",
+        "ggml-cpu-ivybridge.dll",
+        "ggml-cpu-sapphirerapids.dll",
+        "ggml-cpu-alderlake.dll",
+        "ggml-cpu-sse42.dll",
+        "ggml-cpu-cannonlake.dll",
+        "ggml-cpu-cooperlake.dll",
+        "ggml-cpu-haswell.dll",
+        "libomp140.x86_64.dll",
+        "ggml-cpu-icelake.dll",
+        "ggml-cpu-piledriver.dll",
+        "ggml-cpu-x64.dll",
+        "ggml-cpu-sandybridge.dll",
+        "ggml-cpu-skylakex.dll"
+      ],
+      "ModelPackage": "qwen3-model",
+      "ModelPath": "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+      "ExtraPackages": [
+        "msvc-runtime"
+      ]
+    },
+    {
+      "ProfileId": "qwen25-coder",
+      "ExecutablePackage": "llama-vulkan",
+      "ExecutablePath": "llama-server.exe",
+      "ExecutableCompanions": [
+        "ggml-vulkan.dll",
+        "ggml-cpu-cascadelake.dll",
+        "ggml-rpc.dll",
+        "ggml.dll",
+        "llama.dll",
+        "ggml-cpu-zen4.dll",
+        "mtmd.dll",
+        "ggml-base.dll",
+        "llama-common.dll",
+        "ggml-cpu-ivybridge.dll",
+        "ggml-cpu-sapphirerapids.dll",
+        "ggml-cpu-alderlake.dll",
+        "ggml-cpu-sse42.dll",
+        "ggml-cpu-cannonlake.dll",
+        "ggml-cpu-cooperlake.dll",
+        "ggml-cpu-haswell.dll",
+        "libomp140.x86_64.dll",
+        "ggml-cpu-icelake.dll",
+        "ggml-cpu-piledriver.dll",
+        "ggml-cpu-x64.dll",
+        "ggml-cpu-sandybridge.dll",
+        "ggml-cpu-skylakex.dll"
+      ],
+      "ModelPackage": "qwen25-model",
+      "ModelPath": "Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf",
+      "ExtraPackages": [
+        "msvc-runtime"
+      ]
+    },
+    {
+      "ProfileId": "cloud-codex",
+      "ExecutablePackage": "codex-cli",
+      "ExecutablePath": "codex-x86_64-pc-windows-msvc.exe"
+    },
+    {
+      "ProfileId": "cloud-cursor",
+      "ExecutablePackage": "cursor-cli",
+      "ExecutablePath": "dist-package/node.exe",
+      "ModelPackage": "cursor-cli",
+      "ModelPath": "dist-package/index.js",
+      "ExtraPackages": [
+        "git-runtime"
+      ]
+    },
+    {
+      "ProfileId": "cloud-grok",
+      "ExecutablePackage": "grok-cli",
+      "ExecutablePath": "grok.exe"
+    },
+    {
+      "ProfileId": "llama32-hybrid",
+      "ExecutablePackage": "ryzen-runtime",
+      "ExecutablePath": "ryzenai-server.exe",
+      "ModelPackage": "hybrid-model",
+      "ModelDirectory": true,
+      "ExecutableCompanions": [
+        "D3D12Core.dll",
+        "DirectML.dll",
+        "aiecompiler_client.dll",
+        "cert_dtrace.dll",
+        "dyn_dispatch_core.dll",
+        "flexmlrt.dll",
+        "onnx_custom_ops.dll",
+        "onnxruntime-genai.dll",
+        "onnxruntime.dll",
+        "onnxruntime_providers_ryzenai.dll",
+        "onnxruntime_providers_shared.dll",
+        "onnxruntime_providers_vitisai.dll",
+        "onnxruntime_vitis_ai_custom_ops.dll",
+        "onnxruntime_vitisai_ep.dll",
+        "ryzen_mm.dll",
+        "ryzenai_onnx_utils.dll",
+        "zlib.dll",
+        "zstd.dll"
+      ],
+      "ExtraPackages": [
+        "msvc-runtime"
+      ]
+    }
+  ]
+}

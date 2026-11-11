@@ -1,0 +1,12 @@
+Infinity voice and browser components
+
+Whisper.net 1.9.1 - https://github.com/sandrohanea/whisper.net - MIT; full license in Whisper-net.txt.
+whisper.cpp - https://github.com/ggml-org/whisper.cpp - MIT; native CPU runtime supplied by Whisper.net.Runtime 1.9.1.
+Whisper small.en model - https://github.com/openai/whisper - MIT; model weights retain the upstream Whisper license. Converted quantized weights supplied by ggerganov/whisper.cpp on Hugging Face.
+NAudio 2.2.1 - https://github.com/naudio/NAudio - MIT.
+Microsoft WebView2 SDK 1.0.3537.50 - Microsoft license and notices in WebView2.txt/WebView2-notice.txt. Microsoft Edge WebView2 Runtime is separately installed and serviced by Microsoft.
+
+Full MIT texts for Whisper/whisper.cpp/NAudio accompany these notices.
+
+PdfPig 0.1.16 - https://github.com/UglyToad/PdfPig - Apache 2.0 and bundled external component notices; full upstream license/notices in PdfPig.txt. Used for local PDF text extraction.
+DeepSeek Harness is separately installed and licensed by DeepSeek. Infinity loads its account/LLM components from that installation; those components are not redistributed in this package.

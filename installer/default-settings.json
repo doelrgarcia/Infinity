@@ -1,0 +1,12 @@
+{
+  "LoadTimeoutSeconds": 600,
+  "GenerationTimeoutSeconds": 600,
+  "Models": [
+    {"Id":"qwen3-coder","Label":"Qwen3-Coder 30B | Vulkan GPU","Engine":"llama","Endpoint":"http://127.0.0.1:62341","ContextLimit":32768},
+    {"Id":"qwen25-coder","Label":"Qwen2.5-Coder 7B | Vulkan GPU","Engine":"llama","Endpoint":"http://127.0.0.1:62342","ContextLimit":8192},
+    {"Id":"llama32-hybrid","Label":"Llama 3.2 | Hybrid NPU/GPU","Engine":"ryzen","Endpoint":"http://127.0.0.1:62343","ContextLimit":2048},
+    {"Id":"cloud-codex","Label":"ChatGPT / Codex | Cloud CLI","Engine":"codex","ContextLimit":131072},
+    {"Id":"cloud-cursor","Label":"Cursor | Cloud CLI","Engine":"cursor","ContextLimit":131072},
+    {"Id":"cloud-grok","Label":"Grok | Cloud CLI","Engine":"grok","ContextLimit":131072}
+  ]
+}

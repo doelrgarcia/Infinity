@@ -1,0 +1,42 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <UI Id="InfinityInstallerUI">
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Segoe UI" Size="9" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Segoe UI" Size="13" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Segoe UI" Size="10" Bold="yes" />
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ExitDialog" />
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="UserExit" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <Dialog Id="InfinityWelcome" Width="390" Height="250" Title="Infinity Setup">
+        <Control Id="Title" Type="Text" X="20" Y="18" Width="350" Height="24" Text="{\WixUI_Font_Bigger}Install Infinity" />
+        <Control Id="Description" Type="Text" X="20" Y="55" Width="350" Height="100" Text="Install the AI coding workspace for your Windows account.&#13;&#10;&#13;&#10;Models and provider apps can be set up later inside Infinity. No model downloads or account requests start during installation.&#13;&#10;&#13;&#10;Existing settings are preserved. Uninstall keeps your settings and conversations." />
+        <Control Id="Location" Type="Text" X="20" Y="166" Width="350" Height="32" Text="Destination: [INSTALLFOLDER]" />
+        <Control Id="Cancel" Type="PushButton" X="230" Y="214" Width="65" Height="20" Cancel="yes" Text="Cancel"><Publish Event="EndDialog" Value="Exit" /></Control>
+        <Control Id="Install" Type="PushButton" X="303" Y="214" Width="65" Height="20" Default="yes" Text="Install"><Publish Event="EndDialog" Value="Return" /></Control>
+      </Dialog>
+      <Dialog Id="InfinityMaintenance" Width="390" Height="230" Title="Infinity Setup">
+        <Control Id="Title" Type="Text" X="20" Y="18" Width="350" Height="24" Text="{\WixUI_Font_Bigger}Maintain Infinity" />
+        <Control Id="Description" Type="Text" X="20" Y="58" Width="350" Height="80" Text="Repair missing application files, or remove Infinity.&#13;&#10;&#13;&#10;Your appsettings.json, conversations, connected projects, models and provider sign-ins are retained." />
+        <Control Id="Cancel" Type="PushButton" X="150" Y="185" Width="65" Height="20" Cancel="yes" Text="Cancel"><Publish Event="EndDialog" Value="Exit" /></Control>
+        <Control Id="Repair" Type="PushButton" X="225" Y="185" Width="65" Height="20" Default="yes" Text="Repair">
+          <Publish Property="REINSTALL" Value="ALL" Order="1" /><Publish Property="REINSTALLMODE" Value="omus" Order="2" />
+          <Publish Property="WixUI_InstallMode" Value="Repair" Order="3" /><Publish Event="EndDialog" Value="Return" Order="4" />
+        </Control>
+        <Control Id="Remove" Type="PushButton" X="300" Y="185" Width="65" Height="20" Text="Remove">
+          <Publish Property="REMOVE" Value="ALL" Order="1" /><Publish Property="WixUI_InstallMode" Value="Remove" Order="2" /><Publish Event="EndDialog" Value="Return" Order="3" />
+        </Control>
+      </Dialog>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999" />
+      <InstallUISequence>
+        <Show Dialog="InfinityWelcome" Before="ProgressDlg" Condition="NOT Installed" />
+        <Show Dialog="InfinityMaintenance" Before="ProgressDlg" Condition="Installed AND NOT REMOVE" />
+      </InstallUISequence>
+    </UI>
+    <UIRef Id="WixUI_Common" />
+  </Fragment>
+</Wix>

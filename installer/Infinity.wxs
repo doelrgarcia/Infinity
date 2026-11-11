@@ -1,0 +1,50 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="Infinity" Manufacturer="Infinity" Version="$(var.Version)" Language="1033"
+           UpgradeCode="{B781C6C9-E8FD-48FA-A1E7-891C6E236040}" Scope="perUser"
+           ProductCode="$(var.ProductCode)">
+    <MajorUpgrade Schedule="afterInstallInitialize" DowngradeErrorMessage="A newer Infinity installer is already installed." />
+    <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
+    <Launch Condition="Installed OR VersionNT64" Message="Infinity requires 64-bit Windows 10 or Windows 11." />
+    <Property Id="ARPPRODUCTICON" Value="InfinityIcon" />
+    <Property Id="ARPNOMODIFY" Value="1" />
+    <Property Id="INFINITY_SOURCE_REVISION" Value="$(var.SourceRevision)" />
+    <Property Id="EXISTING_CONFIGURATION">
+      <DirectorySearch Id="ExistingSettingsDirectory" Path="[LocalAppDataFolder]Programs\Infinity\app">
+        <FileSearch Id="ExistingSettingsFile" Name="appsettings.json" />
+      </DirectorySearch>
+    </Property>
+    <Icon Id="InfinityIcon" SourceFile="$(var.Payload)\Assets\infinity.ico" />
+    <StandardDirectory Id="LocalAppDataFolder">
+      <Directory Id="UserPrograms" Name="Programs">
+        <Directory Id="InfinityRoot" Name="Infinity">
+          <Directory Id="INSTALLFOLDER" Name="app" />
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="InfinityMenu" Name="Infinity">
+        <Component Id="InfinityShortcuts" Guid="{A434FA73-0D4A-4C77-AAB1-E99C3B48FE2C}">
+          <Shortcut Id="InfinityShortcut" Name="Infinity" Target="[INSTALLFOLDER]LocalAI.Desktop.exe" WorkingDirectory="INSTALLFOLDER" Icon="InfinityIcon" />
+          <Shortcut Id="InfinitySetupShortcut" Name="Infinity - set up AI tools" Target="[INSTALLFOLDER]LocalAI.Desktop.exe" WorkingDirectory="INSTALLFOLDER" Icon="InfinityIcon" />
+          <Shortcut Id="InfinityVerifyShortcut" Name="Infinity - verify installation" Target="[INSTALLFOLDER]Infinity.Verify.exe" WorkingDirectory="INSTALLFOLDER" Icon="InfinityIcon" />
+          <RemoveFolder Id="RemoveInfinityMenu" On="uninstall" />
+          <RemoveFolder Id="RemoveApplicationFolder" Directory="INSTALLFOLDER" On="uninstall" />
+          <RemoveFolder Id="RemoveInfinityRoot" Directory="InfinityRoot" On="uninstall" />
+          <RegistryValue Root="HKCU" Key="Software\Infinity\Installer" Name="InstallFolder" Value="[INSTALLFOLDER]" Type="string" KeyPath="yes" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="PersistentSettings" Guid="{8EAFA694-8510-4DFE-A307-7499EA514313}" Permanent="yes" NeverOverwrite="yes" Condition="NOT EXISTING_CONFIGURATION">
+        <File Id="DefaultSettings" Source="$(var.Payload)\appsettings.json" />
+        <RegistryValue Root="HKCU" Key="Software\Infinity\Installer" Name="SettingsCreated" Value="1" Type="integer" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+    <Feature Id="InfinityFeature" Title="Infinity" Level="1">
+      <ComponentGroupRef Id="ApplicationFiles" />
+      <ComponentRef Id="PersistentSettings" />
+      <ComponentRef Id="InfinityShortcuts" />
+    </Feature>
+    <UIRef Id="InfinityInstallerUI" />
+  </Package>
+</Wix>

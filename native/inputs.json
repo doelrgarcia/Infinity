@@ -1,0 +1,32 @@
+[
+  {
+    "name": "source.zip",
+    "sha256": "1c2762cec2c0a9676364fe5585f82558f3977c5c34b9f28d059683fd862be690",
+    "url": "https://github.com/lemonade-sdk/ryzenai-server/archive/refs/tags/v1.7.0.zip"
+  },
+  {
+    "name": "ort_genai.h",
+    "sha256": "9522202bd6d4edd2c2f86b013c5e4e40d0af5cea742435d195a6f0499c94aa18",
+    "url": "https://raw.githubusercontent.com/microsoft/onnxruntime-genai/v0.11.2/src/ort_genai.h"
+  },
+  {
+    "name": "ort_genai_c.h",
+    "sha256": "dc72367b26706111c634cf125f8c60d23c805e948cdf423435e9cc68ca4da692",
+    "url": "https://raw.githubusercontent.com/microsoft/onnxruntime-genai/v0.11.2/src/ort_genai_c.h"
+  },
+  {
+    "name": "httplib.h",
+    "sha256": "4a42da28ce477d06f53942c172197d3b83b4fe42b7e37b8af78c70e063c06da7",
+    "url": "https://raw.githubusercontent.com/yhirose/cpp-httplib/v0.26.0/httplib.h"
+  },
+  {
+    "name": "json.hpp",
+    "sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6",
+    "url": "https://github.com/nlohmann/json/releases/download/v3.11.3/json.hpp"
+  },
+  {
+    "name": "onnxruntime-genai.dll",
+    "sha256": "c1c2e889338e82e7ce1118a22dbc2908e628633e13f0ae25f2b44d0a0a9e1227",
+    "url": null
+  }
+]

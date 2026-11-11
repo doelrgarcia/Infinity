@@ -1,0 +1,873 @@
+{
+  "canonicalRevision": "c5a30e827f9aaf873a88ad80ba1ac92b5c65044a",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "ce4834ff97999dd37a1f7b52bc24a889628c942bb80f82c3221508e962c6f2bf"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "a97965e31ab426f6b9b0227c1f6029d63fcf070061d4cf97ab54f998c837f6c3"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "5f2871d25a16785550bc879ba3dd39cf9516545e7158312b787420edc61b5626"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "004c1cb189c9584a9982e7cf3cd5dfce2e701611abb393912cef94dc69b9f300"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "1953fe8ee2852f392a6d1bdf1d16a23ee50388be441c68f06240ea94537f4fb1"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "47a8d716bc533d27a60351de307ef5e38ef79c933a0faf4465f468cf31585f2b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "9d000cc1a6537e6d9398f17f1cef0579a5f35f7053b77ff0e9defd2405b14a02"
+    },
+    {
+      "path": "Launch.cmd",
+      "sha256": "0df22505a5943492d5fd3e4dae89d6e4b0a3ce7b4522e816a81eb8be9dd28ac5"
+    },
+    {
+      "path": "LocalAI.CommandTests/LocalAI.CommandTests.csproj",
+      "sha256": "b84f2779a3f43cff34aecdf008d2793643fe3acee2144fcf303344d118cfda3e"
+    },
+    {
+      "path": "LocalAI.CommandTests/Program.cs",
+      "sha256": "dae92b4b9f9ad1c103febf4d3558cb68f0a2bda3c325542568f8bcc9ee79ad4d"
+    },
+    {
+      "path": "LocalAI.Core/ActionSuggestion.cs",
+      "sha256": "bfcd1efd5b23101bf7ecf3b9f368dbc0efa0fe04b24df3c9ec1ded269581b0f5"
+    },
+    {
+      "path": "LocalAI.Core/AgentContext.cs",
+      "sha256": "1611cfbc21e210e52cc201f726f9a592018ea8138da672c480504a28e3b6ee54"
+    },
+    {
+      "path": "LocalAI.Core/AgentCoordinator.cs",
+      "sha256": "695225350cb93f12e321b55958e743e575b3c1ca882e43bb142cac21b806697d"
+    },
+    {
+      "path": "LocalAI.Core/AgentGoal.cs",
+      "sha256": "512496858d07b914f18876324420902bbb89449ecb72617e030627f218e064c5"
+    },
+    {
+      "path": "LocalAI.Core/AgentTaskRequest.cs",
+      "sha256": "0f089853c4996fff52c3e52b02c666605f4bdd41cd59650ac83b7774623964be"
+    },
+    {
+      "path": "LocalAI.Core/AgentWorkspaceFeatures.cs",
+      "sha256": "2c7134ed5e45973dcebbd2977045f1b2a44f6a14be948b99853ff967e0778145"
+    },
+    {
+      "path": "LocalAI.Core/AiLaunchers.cs",
+      "sha256": "ec4c0d0dbc819ddf2f6fddd9528aa94d4562445366877230a26c624d7cffa5ea"
+    },
+    {
+      "path": "LocalAI.Core/AppControlProtocol.cs",
+      "sha256": "82b0e9502db2e7798428d58beed1db24ea82fc12eef08ad14f1ef75181875ca4"
+    },
+    {
+      "path": "LocalAI.Core/AppPaths.cs",
+      "sha256": "885b54370a3d9eb4702a00569254ddb896476c31e1a16d90a50c2b53a0ed1cb5"
+    },
+    {
+      "path": "LocalAI.Core/BrowserAddress.cs",
+      "sha256": "3b588f287772130b68f8d0ad08656c19ac36b8acf7d520469118005e98444a46"
+    },
+    {
+      "path": "LocalAI.Core/ChatCommands.cs",
+      "sha256": "74056656be6745c35204c33d6ea42d470c2d4a0b1728d9dfba77fc8b20723d90"
+    },
+    {
+      "path": "LocalAI.Core/ChatContext.cs",
+      "sha256": "119b6533471fe51771fef46c3cdc7c7b612d8a72aaa43a5053ccbf846d2a76ca"
+    },
+    {
+      "path": "LocalAI.Core/ChatFileTools.cs",
+      "sha256": "4b4fc4632a80120628a96ffbc8c622b82eea3b8a5fd22c17d41cf569c5e22ec3"
+    },
+    {
+      "path": "LocalAI.Core/ChatMonitor.cs",
+      "sha256": "f777f4fda551429fd3fb648fcbefa2b56074a7cc28f5948dee2f65401ee5ece9"
+    },
+    {
+      "path": "LocalAI.Core/CliAssistant.cs",
+      "sha256": "b2e80466f86ae9bd41585eee3a4de235703bd2193c967e8b9a4c1e24c87613f7"
+    },
+    {
+      "path": "LocalAI.Core/CliEscalation.cs",
+      "sha256": "364bb4decb1e7146f73ecb084155d14b355678f478e83a58c4c733d09fc0df6c"
+    },
+    {
+      "path": "LocalAI.Core/CommandRunner.cs",
+      "sha256": "736490afc25caba3eb2d565e4953f3870df505e7a13e6acf9d0354dff1312a1d"
+    },
+    {
+      "path": "LocalAI.Core/ContextFiles.cs",
+      "sha256": "00f97503a292cd1a5380090831c004cb2abf5593c0fdcacd239e4b7cd77a95ba"
+    },
+    {
+      "path": "LocalAI.Core/CopilotBridge.cs",
+      "sha256": "af5134a76d08925e033323aa05b53777170c1236b022adc5fdb11a227d045bf8"
+    },
+    {
+      "path": "LocalAI.Core/DebugWorkflow.cs",
+      "sha256": "2fb1469a06fb001be7ec18c6053b4ce2c273aa5d6a6090400ec0edad7bbfc2db"
+    },
+    {
+      "path": "LocalAI.Core/DeepSeekBridge.cs",
+      "sha256": "986943ede686a18a19de80974311fdd9a4c5dbc3991d1825858e301a004b0488"
+    },
+    {
+      "path": "LocalAI.Core/DependencyInstaller.cs",
+      "sha256": "1f8bf220e5c02a4df14e4d65979b4d739eaafd805b91a79247832a79096960e7"
+    },
+    {
+      "path": "LocalAI.Core/FileAttachment.cs",
+      "sha256": "e991a0f773b0984d9acf68aecd9ffaef0b266cfd7a40b05b096ac29cd1fb3591"
+    },
+    {
+      "path": "LocalAI.Core/FileWorkspace.cs",
+      "sha256": "c833e18784daf6f6433387489b959d22f96e9fd74ec391eaaf1d51654ae269f7"
+    },
+    {
+      "path": "LocalAI.Core/HybridBackend.cs",
+      "sha256": "ec25ba01e7be30ad7855d3c326368246ba2820c9647df1423bc7fe29953ac4b4"
+    },
+    {
+      "path": "LocalAI.Core/ImageInput.cs",
+      "sha256": "5b8a614fe1bf9112aac778f453db502171c7720925940e51e8484e223e780f54"
+    },
+    {
+      "path": "LocalAI.Core/IsolatedWorkspace.cs",
+      "sha256": "ced948fec87a8b2d65e84a85c40e3c108cfc7f985f413c2cbbb67e33f8fdc6b7"
+    },
+    {
+      "path": "LocalAI.Core/LiveFollowUp.cs",
+      "sha256": "6867d70e6e73cc3169bfe274eca95ff836fd8e61181815662b30a6c5fbf6d90c"
+    },
+    {
+      "path": "LocalAI.Core/LocalAI.Core.csproj",
+      "sha256": "157cae53d5bfc0f621882eac1f9d17cddabee4c4dee4f1da7de4dd4f8cac444a"
+    },
+    {
+      "path": "LocalAI.Core/LocalClient.cs",
+      "sha256": "35f7736c249454566d3726eb99f71540c93a8bbacc091bd928fa155592b93c7a"
+    },
+    {
+      "path": "LocalAI.Core/Models.cs",
+      "sha256": "b0555cb13e34f87ac541e7667db504d23617313082c5f542f46d4a1ea343d34c"
+    },
+    {
+      "path": "LocalAI.Core/ProjectGuidance.cs",
+      "sha256": "d44d30cdebcd95c1007faa9db9bc0d84973672e8d8665cfa316a3f8b57d9be33"
+    },
+    {
+      "path": "LocalAI.Core/ReviewedCodeSave.cs",
+      "sha256": "a55de4d27ae870895772f70b7f6356264e913a722cba2ee9bb9127de545d010c"
+    },
+    {
+      "path": "LocalAI.Core/RuntimeManager.cs",
+      "sha256": "1d8a8d56a1632a5b06a6d1170d16111cfbe1fe211ce3e431e2d7794ded5e2253"
+    },
+    {
+      "path": "LocalAI.Core/SkillLibrary.cs",
+      "sha256": "75630c012dc8a62709efd0224830763c1ae3df29abea22455c6fa462096149d0"
+    },
+    {
+      "path": "LocalAI.Core/SourceControl.cs",
+      "sha256": "f40d6aeb196b987b0a59ef8383f8f05881b92d8bd8358671343416b4762f030e"
+    },
+    {
+      "path": "LocalAI.Core/StartupDependencies.cs",
+      "sha256": "312e90e2310eb3f920b62dc5a2913910dff139e1fec16d358f0ef72d0146e45c"
+    },
+    {
+      "path": "LocalAI.Core/TemporaryWork.cs",
+      "sha256": "371699db10f48bded6303db62ef2bb04f1218d10debe2e7c5ca14e5e74be5881"
+    },
+    {
+      "path": "LocalAI.Core/TrustedWorkPolicy.cs",
+      "sha256": "e3d4039693eb29c52b82ef870881cc6f8ee3e143ee77c1b16a067998a6d3ad0f"
+    },
+    {
+      "path": "LocalAI.Core/WebResearch.cs",
+      "sha256": "60d205a66cba7e2a3c2a2c88f06171919e7822882215558338eaa8ca4b70e816"
+    },
+    {
+      "path": "LocalAI.Core/WhisperVoiceAssets.cs",
+      "sha256": "cfb8e2c779572d5a5dd5f1c2b8000591c452ee8a0abd1bf8a0b864dd91af8271"
+    },
+    {
+      "path": "LocalAI.Core/WindowsPrerequisites.cs",
+      "sha256": "8845bffaa92a67aa58aeb2f71840b9738dbcb07077eaa5ff63f647c857be2e19"
+    },
+    {
+      "path": "LocalAI.Core/deepseek-bridge.cjs",
+      "sha256": "f30cb69a7693c8530a5f57daf5585dcb84c6bef93c7bed8efd3153b8fa4d986b"
+    },
+    {
+      "path": "LocalAI.Core/dependency-catalog.json",
+      "sha256": "00f281eea27f57daff9d8875817e39665830991e12463da0f9c5fdc5b71b24d0"
+    },
+    {
+      "path": "LocalAI.Desktop/ActionQuestionTests.cs",
+      "sha256": "7190b58f87765b20cde7c0408fd7774910d86b8b4f552d7648fc009b2b1abf86"
+    },
+    {
+      "path": "LocalAI.Desktop/ActionQuestionWorkflow.cs",
+      "sha256": "be992e28b6287071137f4910aa27c7ebd0331da1e0ecef67192b2d7f68fa4941"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentActionQuestions.cs",
+      "sha256": "bee47a9f089b4c2772d3fc094bb181936917eb3c33372f32ae67bd99b545e706"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentAttachments.cs",
+      "sha256": "539ecaa89dc58b9e74a914cef5be8cfc996bb23aaa1c457c8d186ee48a9732d5"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentFeatureTests.cs",
+      "sha256": "caba8f381863b79ea29a96e180d16f1273ea2293156782e9a58f6a5e9c812eb3"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentFeatures.cs",
+      "sha256": "815a83c8036f114796d583fbdc88654b87008635b600e2e9f627f787325bb147"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentFollowUps.cs",
+      "sha256": "ce770b3975065406e4e5cf7d080f9d263a2c1e8ad7452a8203d3c3a02914b5ab"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentPresentation.cs",
+      "sha256": "955a614d14402f169077eb019daeed26dab8c3039f33bdc181e8c6dc334481e1"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentShell.cs",
+      "sha256": "2da05926604b29985dc537c39aeab0e5db81a2fe858cc278bb32d7cc93639313"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentTaskSubmission.cs",
+      "sha256": "0540bbd4b8b5a3ab135d4fca1edf32a0af4c32a697d2db00e6869f9c1514c531"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentTests.cs",
+      "sha256": "3c331c1d55712e40fc5892a26036d5b71ff5720fada8343ebdac5ed8a34fd7a7"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentUiTests.cs",
+      "sha256": "a37e949042e87c05585e121367c092ef2cbbf3db447be1e2cf9154e6ce97ed79"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentView.cs",
+      "sha256": "2a2aa0ee8c8597707188aac4b2ddf3dc714a5599dc82ca08e92f69dfed4c83ce"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentViewEnhancements.cs",
+      "sha256": "2275e7594712a2c441ebc039369e3fe76ead162d878944da0f6603fc80ecd83c"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentWorkbenchView.cs",
+      "sha256": "2ab8a9ab6fc31def1878d8bce082dd5917bf0f7cf573f6e5982c11c74c74ca9d"
+    },
+    {
+      "path": "LocalAI.Desktop/AgentWorkspace.cs",
+      "sha256": "aa634c70e15ce3fdde2a4264dc7643550e9c1d80338a7b3ab5b433c9e90efc18"
+    },
+    {
+      "path": "LocalAI.Desktop/AiToolsTests.cs",
+      "sha256": "7f8445f8aeda3483b26e32da4ab0115790bbffb8b0e071b3683648186ea68a4c"
+    },
+    {
+      "path": "LocalAI.Desktop/AiToolsWindow.cs",
+      "sha256": "8a8060b00007a28ccc99158e15dab629bd5789be6d97495301c6bcfe4dfc33ee"
+    },
+    {
+      "path": "LocalAI.Desktop/AppControlTests.cs",
+      "sha256": "1b3e6c15201d7c588e1ae8de40bfec14f45d6b5ce7fe7a801ecd0a405d780ebb"
+    },
+    {
+      "path": "LocalAI.Desktop/AppControls.cs",
+      "sha256": "6e978c25e9adeaef02a1d903c9509ac2d2ed794f9b1d16dcb6d36f9883c0aea0"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/Components.txt",
+      "sha256": "729da8485385ad0a25f6ea52c9d4d2dfeadb9c80a45c9ee735bdec5505aacedd"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/DotNet-notices.txt",
+      "sha256": "66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/DotNet.txt",
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/Infinity.txt",
+      "sha256": "9d000cc1a6537e6d9398f17f1cef0579a5f35f7053b77ff0e9defd2405b14a02"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/NAudio.txt",
+      "sha256": "7c57209555296e73faa34fe38740aa4a86aa8250d969ab73a6e37de57c36c0a5"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/PdfPig.txt",
+      "sha256": "4c510e162f896ea43b4b1cf1b743641d7c756f1004d0e5eaf0615b28b7ded409"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/System.Speech-notices.txt",
+      "sha256": "66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/WebView2-notice.txt",
+      "sha256": "106423785c5b7eba0a8e61d1837f2132e9c828e20ad530f565d981c1df60dd90"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/WebView2.txt",
+      "sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/Whisper-cpp.txt",
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/Whisper-model.txt",
+      "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/Whisper-net.txt",
+      "sha256": "778628a2167e54fcb03f28957004a45f339386d38dc11243b5a8687efcf82937"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/Wpf-notices.txt",
+      "sha256": "d23dba2fee20c6b59d8f7088ee9ed372459c952a319b7ca90f3eec370cc76eb9"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/Licenses/Wpf.txt",
+      "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/favicon.ico",
+      "sha256": "eb99f152203019c2a6aec2c4e85ae67d3e4ac4d40562f65d870ecadd6e153905"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/infinity.ico",
+      "sha256": "2f61a3f9406e1f87a1fde8e884c0ce62d2784f01beb1529c04ab267f0a9bea74"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/infinity.png",
+      "sha256": "7ef4dd6c4b823cc83c99e33b678f44d87f72357baaeebeb18a9a601659fb4bfd"
+    },
+    {
+      "path": "LocalAI.Desktop/Assets/infinity.svg",
+      "sha256": "420947f322d62d377f063eaac20ec8680c73d89b9e9b2c9a603d23959f61230b"
+    },
+    {
+      "path": "LocalAI.Desktop/AttachmentDropTarget.cs",
+      "sha256": "2b5ba8d2e9719ef1a9f7f3a984517d2a707edc86070f580cdcc6e45665e1af33"
+    },
+    {
+      "path": "LocalAI.Desktop/AttachmentDropTests.cs",
+      "sha256": "87df7e0f6c98e672e57f7b7eda2a79980b7dc8afab4874cf88ace8d12d761746"
+    },
+    {
+      "path": "LocalAI.Desktop/BrowserInteractions.cs",
+      "sha256": "d07f87939b1a22f870b369bba48c44d2bf0d283dc4d51d0374ce263d031bbff0"
+    },
+    {
+      "path": "LocalAI.Desktop/BrowserTests.cs",
+      "sha256": "bb07c226a01d5b665aaa5d87591851a2f79a2853dd7cc8616d4a5a0a33c1a347"
+    },
+    {
+      "path": "LocalAI.Desktop/BrowserWindow.cs",
+      "sha256": "dfb61bbbed7990c43f4191996dc199416b78aadd1b1ad6acf5c939b4024c5abe"
+    },
+    {
+      "path": "LocalAI.Desktop/CapabilityTests.cs",
+      "sha256": "2c8cf01fd885719c84370d9ce62190da2442c768503405bc43666cc7da4d3290"
+    },
+    {
+      "path": "LocalAI.Desktop/ChatAssistantTests.cs",
+      "sha256": "cc764961a3eabe46c3f1f6f81cb3fc6cb99262a8c86ceaecc2260c07051b81ea"
+    },
+    {
+      "path": "LocalAI.Desktop/ChatAssistantWindow.cs",
+      "sha256": "45569a7f3e3e5a485604c9f8af99d7f2ff6d48453ed8f670582f2033f606a6dc"
+    },
+    {
+      "path": "LocalAI.Desktop/ChatCommandTests.cs",
+      "sha256": "028ec5290ed27f22cc64f586f10d7c334bee9aa2a555971d1e04997ad84ad143"
+    },
+    {
+      "path": "LocalAI.Desktop/ChatCommandWorkflow.cs",
+      "sha256": "45877322ffbaf548d69720b5e5270a5a5462b1c774a77feb4d32f775f0d269ad"
+    },
+    {
+      "path": "LocalAI.Desktop/ChatFileToolTests.cs",
+      "sha256": "a6f55850229a4ea73d09f91ecbf4a16ce19c1a0a1701427fff778b13900fa4c4"
+    },
+    {
+      "path": "LocalAI.Desktop/ChatRenameTests.cs",
+      "sha256": "d33382625805c9f4e19b64b9b49de643b1176d787e8b7fc6f74a2dcfcfb561db"
+    },
+    {
+      "path": "LocalAI.Desktop/ChatRenameWorkflow.cs",
+      "sha256": "571eacbe8b492db0163c5418ffcb5d70b575b79c322516e421bb5af9cddeca89"
+    },
+    {
+      "path": "LocalAI.Desktop/CliEscalationWorkflow.cs",
+      "sha256": "095c87f8f9e897958703c3d4eb72c4af7267f96fff1751871e044a0adf8dac5f"
+    },
+    {
+      "path": "LocalAI.Desktop/CliHandoffWindow.cs",
+      "sha256": "0613940125496f7d93a1f45d1110bc502133188c593e419efedf6bf9618c3534"
+    },
+    {
+      "path": "LocalAI.Desktop/CodeSaveWindow.cs",
+      "sha256": "5a2ac4496805f1029e76329107f1f108c15e2cd1a7afef7b4ca2769329b7ce76"
+    },
+    {
+      "path": "LocalAI.Desktop/CommandTests.cs",
+      "sha256": "64248cc24d3304d3b12dbdfc29aece2dcb2ad692a13a8ee808195f9d2894512d"
+    },
+    {
+      "path": "LocalAI.Desktop/CommandWindow.cs",
+      "sha256": "870f1ad47df3c11d84078a83e7e2cafbc1953d3866b1751f0defdfc164818228"
+    },
+    {
+      "path": "LocalAI.Desktop/CopilotLiveTests.cs",
+      "sha256": "81d4a353f3114fbf59cfafa694cd15f004a83bcd8a1572a98bea89070c007e2e"
+    },
+    {
+      "path": "LocalAI.Desktop/CopilotTests.cs",
+      "sha256": "fd8b642d3a2a3bcc995d7b304e4ffcccb4d9a8def071756ff5350f299e11dc44"
+    },
+    {
+      "path": "LocalAI.Desktop/DarkTheme.cs",
+      "sha256": "1488bb4351d068224ad98431080eadf9fb03395d91e57032cc12fc304989560d"
+    },
+    {
+      "path": "LocalAI.Desktop/DebugTests.cs",
+      "sha256": "050e19a42cf3e76bbd33a52d0a966254535c2a01e741fbea3e064dec491568b2"
+    },
+    {
+      "path": "LocalAI.Desktop/DebugWindow.cs",
+      "sha256": "2b5750421a8d6f0137dc8c02b76554fb766331dfd8ddabfbebe61ea67db42dc2"
+    },
+    {
+      "path": "LocalAI.Desktop/DeepSeekTests.cs",
+      "sha256": "d28a01c1d05f058eb8563ba04e07b6f4b3d113e09907a9ea50aa0b6179ef92cb"
+    },
+    {
+      "path": "LocalAI.Desktop/DeletionTests.cs",
+      "sha256": "1d89d7c71809df921e8c1ce18055ad0aa0c198578a8685bff5f71fbcf450142e"
+    },
+    {
+      "path": "LocalAI.Desktop/DeletionWorkflow.cs",
+      "sha256": "7d9a5f51d88f9362d1e5e8791018bcca95982c204184a33aa1a4d13b18c1031d"
+    },
+    {
+      "path": "LocalAI.Desktop/DependencySetupTests.cs",
+      "sha256": "b9635cdfff2af663291da0466ccc5956fc05b25f5e9f661cece0c27dcf669816"
+    },
+    {
+      "path": "LocalAI.Desktop/DependencySetupWindow.cs",
+      "sha256": "b29396236109563e653da2fba9ae83c3596ca7a7fa89ad90f688f15de76420f2"
+    },
+    {
+      "path": "LocalAI.Desktop/EscalationTests.cs",
+      "sha256": "f6d293407d7ebd5c46a790117548f3096576b3027420b372cfbc83efd4aa9c84"
+    },
+    {
+      "path": "LocalAI.Desktop/FileActionWorkflow.cs",
+      "sha256": "7e3de02e264d96113235edfd199389a6a053cdaea84a1079ccbf35c8ca1b2aa9"
+    },
+    {
+      "path": "LocalAI.Desktop/FileActivityView.cs",
+      "sha256": "7913aca10f87353c4e5c6d7e0d37e90b346a53b010125d73b5c1f8ff8ae332ea"
+    },
+    {
+      "path": "LocalAI.Desktop/FileAttachmentTests.cs",
+      "sha256": "5c0ced5b6b6a47eb70d1278c4562e915dd621e2bf9b55a4bea990c6691259f8b"
+    },
+    {
+      "path": "LocalAI.Desktop/FileAttachmentWorkflow.cs",
+      "sha256": "c4f96d8c560fb98a41b462c6d264f824cd3f99428bc60cbcddb2654f9e17f516"
+    },
+    {
+      "path": "LocalAI.Desktop/FileWorkspaceTests.cs",
+      "sha256": "d003e27a9bf2f84c8dbbe6a623539cdeec47401e8a75f129894de7ca01129ee4"
+    },
+    {
+      "path": "LocalAI.Desktop/FileWorkspaceWindow.cs",
+      "sha256": "a8b3b84e7a8f036f6f704bae9b5f5651849b5a1c2d66ad857986a5be9193344e"
+    },
+    {
+      "path": "LocalAI.Desktop/FolderBatchReviewWindow.cs",
+      "sha256": "fc479f2ca0f8772a37a5006bb52d7359ffa59c3639bf5d7539eb25d7e0842389"
+    },
+    {
+      "path": "LocalAI.Desktop/FolderPicker.cs",
+      "sha256": "501615fdeb5ac87e69f201bbdde926c5842bd94a6402cd03b28140cf9bb6a205"
+    },
+    {
+      "path": "LocalAI.Desktop/GoalWorkflow.cs",
+      "sha256": "926ae020b5cd371e400015e43ca6693b3f1de467e01725a13cd1c4b35a162457"
+    },
+    {
+      "path": "LocalAI.Desktop/GuidanceGoalTests.cs",
+      "sha256": "15a3ca3697dc293cc4e70e4a67f6b98295a3ab683d135ebaef34429e48077d6f"
+    },
+    {
+      "path": "LocalAI.Desktop/HybridChatTests.cs",
+      "sha256": "8c5577e616dc9faa9904f13ec9ab75ba2dc60928660b73d3ca0d48690acdeee5"
+    },
+    {
+      "path": "LocalAI.Desktop/ImageWorkflow.cs",
+      "sha256": "156706f28870f07a86f549314147d676301abf563ae21240101e3b5a8c9f9643"
+    },
+    {
+      "path": "LocalAI.Desktop/LiveFollowUps.cs",
+      "sha256": "f0ae769e0ddec1250795453647475a6624e25b204362b9228c0fb38c6344af91"
+    },
+    {
+      "path": "LocalAI.Desktop/LocalAI.Desktop.csproj",
+      "sha256": "f42b77fbf3d42fddbb7eb98078513dc758243c7057604c1cf536bd32fe8cab20"
+    },
+    {
+      "path": "LocalAI.Desktop/MainWindow.cs",
+      "sha256": "6990427590d6029ed5e3274a89915debf9844dba935ecf4a08f53173cd568271"
+    },
+    {
+      "path": "LocalAI.Desktop/PickerUiTests.cs",
+      "sha256": "7e5808cb95ae5c16e97a4d78eac898fdcc8974f05cbac576a87f57c85757fdd4"
+    },
+    {
+      "path": "LocalAI.Desktop/Program.cs",
+      "sha256": "678ca0386a6266f14017ea39b08c9f9b5967d66a5a6fc32a59d77a74de579f84"
+    },
+    {
+      "path": "LocalAI.Desktop/ProjectChatTests.cs",
+      "sha256": "d4cb93082f7386041874511b7472ca8dda593b07a9e2cec7369fce5fbc1c10d7"
+    },
+    {
+      "path": "LocalAI.Desktop/ProjectGuidanceIntegration.cs",
+      "sha256": "e939b6d2d07a9a352cc7c035354d5a8e6cdda98c8f1e644157495e65cb0434cf"
+    },
+    {
+      "path": "LocalAI.Desktop/ProjectNavigation.cs",
+      "sha256": "a831c849ac718c69c9083748f3fd60e4d5654d70ee52296d807506efc3d5f3de"
+    },
+    {
+      "path": "LocalAI.Desktop/ProjectNavigationTests.cs",
+      "sha256": "ca4a8ffb923d2ee439822db4b2d32d43b08cad963d3d0b4eedc01c51f58983be"
+    },
+    {
+      "path": "LocalAI.Desktop/ProviderConsent.cs",
+      "sha256": "5234276821f039b5e4de6d5f44580ed6380c7b70b6e9b18447803c0b06114c71"
+    },
+    {
+      "path": "LocalAI.Desktop/ProviderSelectionWorkflow.cs",
+      "sha256": "b4eed2b94f4416bb778abdf7ce0510689b2024fb07d8a554e061a5e7c9f48c68"
+    },
+    {
+      "path": "LocalAI.Desktop/QaCapture.cs",
+      "sha256": "edde6575e1a726c3e378ef0ce522080181a981045fe0a1a934a28c404a3855c9"
+    },
+    {
+      "path": "LocalAI.Desktop/ResearchWindow.cs",
+      "sha256": "2d3218817cfb63ec2a94de9489de888e29a6f01ce581044c13c81a23b2f127fa"
+    },
+    {
+      "path": "LocalAI.Desktop/RightPane.cs",
+      "sha256": "7a818e125e6a80d9dc18a4fba9361dd3950479676aa6a4491c39ee650426a279"
+    },
+    {
+      "path": "LocalAI.Desktop/RightPaneTests.cs",
+      "sha256": "74b5c34d255b27159e5f9c4471d7ca63ebe3f203a6ff3fd22ae8478d0f98765c"
+    },
+    {
+      "path": "LocalAI.Desktop/SimpleChatLayout.cs",
+      "sha256": "2c8ec2b0026c93811da4697658fa126f5e74802afc61529dad7ed22ac1f796d1"
+    },
+    {
+      "path": "LocalAI.Desktop/SkillsWindow.cs",
+      "sha256": "13311697ecfcc532294857ec6670e1c2267334f2052e042b5bc3c6515eed1eaf"
+    },
+    {
+      "path": "LocalAI.Desktop/SourceControlTests.cs",
+      "sha256": "7da6b8630ac06117afcd1ad21eeb01d6faebebeb6d2a58db639ce5cc4452c4d7"
+    },
+    {
+      "path": "LocalAI.Desktop/SourceControlWindow.cs",
+      "sha256": "b27f65ba357099674548526920f2d21aa47157943485ab1d7597a4f2f358c010"
+    },
+    {
+      "path": "LocalAI.Desktop/SourcePicker.cs",
+      "sha256": "3570c5fcfe00dd949ac03bba1b5eae709107a7e2ef794ff7fadf9f32c949ebd8"
+    },
+    {
+      "path": "LocalAI.Desktop/UiAgentPathTests.cs",
+      "sha256": "39f94f0c552ff5588ead1b29dce66e32fdbecd4a7a02718b8e4e3d814e59ade0"
+    },
+    {
+      "path": "LocalAI.Desktop/UiAuxiliaryPathTests.cs",
+      "sha256": "fc94651024de4da580ea96535a44f33cc030c49702b1bed4d1200fb5a9dfcee4"
+    },
+    {
+      "path": "LocalAI.Desktop/UiDialogPathTests.cs",
+      "sha256": "6ce8fcc98154e0684e00862eaa3d54ff7374b38b4c2453fa735c9abde4e5bca7"
+    },
+    {
+      "path": "LocalAI.Desktop/UiFilePathTests.cs",
+      "sha256": "20246ac5d39332182cf92763d6a818eea6b844f355d7e766bd97e1f2d8f7c915"
+    },
+    {
+      "path": "LocalAI.Desktop/UiIcons.cs",
+      "sha256": "be3314a9c7bf0fdabfe38ed7bc8a3722cca366c77043a51613820f93969080bb"
+    },
+    {
+      "path": "LocalAI.Desktop/UiPathTests.cs",
+      "sha256": "44487aeff059659591d91931218044c2be38b7550f4749341d3122c3f6a1777f"
+    },
+    {
+      "path": "LocalAI.Desktop/VoiceDictation.cs",
+      "sha256": "972f8fb371f8790fc804054fb074322bab8aa6e51b8bdcddc86e5a966870d11c"
+    },
+    {
+      "path": "LocalAI.Desktop/VoicePromptTests.cs",
+      "sha256": "ae82c585d8c694ac2ec594e872697c021969a5d3635177b75d84c7f415b81e61"
+    },
+    {
+      "path": "LocalAI.Desktop/WhisperDictation.cs",
+      "sha256": "4b1401fc87233a202104d4b861c27193ff94efea119c4b77c079b41e05beeb6a"
+    },
+    {
+      "path": "LocalAI.Desktop/WorkingFilesPanel.cs",
+      "sha256": "681d601d73fbc244f590025b8d82c072d891ef42ddd03ea998b69ee90c7638b5"
+    },
+    {
+      "path": "LocalAI.Desktop/WorkspaceDesignTests.cs",
+      "sha256": "f274b356561c7976e52b64f5ca693b5e9aa709f0490a957a958fd500d6882195"
+    },
+    {
+      "path": "LocalAI.Desktop/WorkspaceIsolation.cs",
+      "sha256": "f3d5d1714999a8c08c7b97c9cfb78b7d2c4b6a1b7147266aa85e72cceecf7063"
+    },
+    {
+      "path": "LocalAI.Desktop/WorkspaceLayout.cs",
+      "sha256": "7c25225f9244053ed64f8747e9475f00b8d04aa7c529099949751782e141054e"
+    },
+    {
+      "path": "LocalAI.ExtensionTests/LocalAI.ExtensionTests.csproj",
+      "sha256": "2c73adec93edbc1d56b513af8f92e58d5748995add50f8fd24845f3c6899adc5"
+    },
+    {
+      "path": "LocalAI.ExtensionTests/Program.cs",
+      "sha256": "66b90dcc5a360ea00f729788c3b98a47a1339468230610f83d5d083dcd30ebd5"
+    },
+    {
+      "path": "LocalAI.FileTests/LocalAI.FileTests.csproj",
+      "sha256": "ed3c8107f77d4f9ef9f0f2be4528948652a5248c962da6abc0eb1271a181c949"
+    },
+    {
+      "path": "LocalAI.FileTests/Program.cs",
+      "sha256": "b0ff6cff2b7f81ece3e286e2dc538d05408233ed87d6525fb046f17638ed72cc"
+    },
+    {
+      "path": "LocalAI.SourceTests/LocalAI.SourceTests.csproj",
+      "sha256": "ed3c8107f77d4f9ef9f0f2be4528948652a5248c962da6abc0eb1271a181c949"
+    },
+    {
+      "path": "LocalAI.SourceTests/Program.cs",
+      "sha256": "f387a15b4f6a682cfb3b773404d17b2041b87dfa003bfe4a2f08c9aa555de9b1"
+    },
+    {
+      "path": "LocalAI.StartupTests/LocalAI.StartupTests.csproj",
+      "sha256": "ed3c8107f77d4f9ef9f0f2be4528948652a5248c962da6abc0eb1271a181c949"
+    },
+    {
+      "path": "LocalAI.StartupTests/Program.cs",
+      "sha256": "9a2c03a34a42f9654f6f3dda2dfe19e392ac2b8dbf1c80af5806065a8ea14646"
+    },
+    {
+      "path": "LocalAI.Tests/LocalAI.Tests.csproj",
+      "sha256": "2c73adec93edbc1d56b513af8f92e58d5748995add50f8fd24845f3c6899adc5"
+    },
+    {
+      "path": "LocalAI.Tests/Program.cs",
+      "sha256": "5e82710c195543143ffb2fd67602e22d1d9926d6ab2deb5b691583d11740456e"
+    },
+    {
+      "path": "NuGet.Config",
+      "sha256": "864a447e10f5ea6dc94d692f8898f933ceee38dec6f84832c86ebdd35796a67f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "312daac93bfd907317e7e0e7df948d691ed96129873cc84dbb64e4dd6ddce071"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "320f72580a378f80f6e80b49e05ee09c90cf13265f9cc8cb4772491614025cb1"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "64e1e8abdd284e0643531656f36720d5cca504f7299bd322134a6b47b360fc45"
+    },
+    {
+      "path": "appsettings.example.json",
+      "sha256": "5d4a4e7379ca0c7df93473eedbf3327025207c0cc4813ef39c4a5c728ed5a270"
+    },
+    {
+      "path": "docs/BUILDING.md",
+      "sha256": "0ac0ca112093a2a4ff9a9de11eb32c0f5792b0caefa58d2297cc93c78418240c"
+    },
+    {
+      "path": "docs/PUBLIC_BETA.md",
+      "sha256": "ff3e0e6dca979ade19774c8c102677d1f8f124679d1140de0b2feff4681efb9a"
+    },
+    {
+      "path": "global.json",
+      "sha256": "47a316c0a4ade4b1b6c79201cad720c2fbe41744713f1ccf25107988073c2a6d"
+    },
+    {
+      "path": "installer/Infinity.wxs",
+      "sha256": "7ca46934509d7a8206bbd4f73ec692103fb0c5fd74940d889189971c1710ebae"
+    },
+    {
+      "path": "installer/InstallerUI.wxs",
+      "sha256": "5994f7a3fa77b82585566586c0e52384f4b234948b654f3e6b77ba1552abe7c0"
+    },
+    {
+      "path": "installer/README.md",
+      "sha256": "1f709186ca278cbd1e524c56d75623bf007469facb7b33694c026e7e689265e9"
+    },
+    {
+      "path": "installer/Verifier/Infinity.Verify.csproj",
+      "sha256": "3f4e7c1a12ba1e72e24d14256a58275e144bd7ec59c52f5586a8068a5d46f4f8"
+    },
+    {
+      "path": "installer/Verifier/Program.cs",
+      "sha256": "b8dc237ad4f53629b1d1539463bb5d2a60ca47189b7eb0426fdb84ef6042cf44"
+    },
+    {
+      "path": "installer/VerifierTests/Program.cs",
+      "sha256": "fe9484caf7c54e76d4bea73f4a3593d11fe507c52c31bc32f607142676c46ef2"
+    },
+    {
+      "path": "installer/VerifierTests/VerifierTests.csproj",
+      "sha256": "43cad3c569dd116e3947fd82e3d43adc753919646c1b80abe6f41bd284f1ac2f"
+    },
+    {
+      "path": "installer/default-settings.json",
+      "sha256": "5d4a4e7379ca0c7df93473eedbf3327025207c0cc4813ef39c4a5c728ed5a270"
+    },
+    {
+      "path": "installer/third-party/WiXUI-LICENSE.txt",
+      "sha256": "dfdf2048787635215a6baf3b9d461dee89a2904d246787258a44f072a98d4786"
+    },
+    {
+      "path": "installer/third-party/wix-ui-source-pin.json",
+      "sha256": "a0667bb976e6c633341da4affaf23168eb033c9c1df338882381e38a1c718d54"
+    },
+    {
+      "path": "installer/third-party/wix-ui-source-v7.0.0.zip",
+      "sha256": "408c798d2081213963518b3ac9edaae8800adefd14689045c4cdb67d4401ce73"
+    },
+    {
+      "path": "launch-provider.ps1",
+      "sha256": "d4488d836a72094e20534783c555e0017e5da682dd0346231e37eadee77f3ad8"
+    },
+    {
+      "path": "native/README.md",
+      "sha256": "a3bdeabd19594a3173c91dc6c446f2b17bbfd6d8dbedeaebe3a2ecd757dbd494"
+    },
+    {
+      "path": "native/THIRD_PARTY_NOTICES.txt",
+      "sha256": "4b765f0c29b6223e6006eb5ac2496aca85b140a16f192d3088521a282c606ce1"
+    },
+    {
+      "path": "native/build_backend.py",
+      "sha256": "433b4e2c971d610067ba50087971c4607f940267c784cdb548db03a9614d910d"
+    },
+    {
+      "path": "native/inputs.json",
+      "sha256": "7a089c05cde3144713d25b5011f175d8ba93f3e327a4650d2f7b9888a748a427"
+    },
+    {
+      "path": "native/prepare_inputs.py",
+      "sha256": "58b9cf82878e24f5db24c011fefb2c3065420f8554000ac7759e01034a7f16e9"
+    },
+    {
+      "path": "scripts/Install-LocalRelease.ps1",
+      "sha256": "d786523999d9b17847f1a55584e89362abcc39f93829e73f61de2eaadb1d81a6"
+    },
+    {
+      "path": "scripts/build_msi.py",
+      "sha256": "482dba0a741eaf0860f58100dc29cd29a66ff68ad08b2de36b7a39beb60be3b5"
+    },
+    {
+      "path": "scripts/inspect_msi.py",
+      "sha256": "f3da46da10f11220e06ef6ffdd1c9e870e71f4b9cd844758970b4f2d6d2c46de"
+    },
+    {
+      "path": "scripts/prepare_public_source.py",
+      "sha256": "3e68d0fe5a78b98d4307d7dd4d04753027757945408718dc32792d5e6ff843f5"
+    },
+    {
+      "path": "scripts/reverify_release.py",
+      "sha256": "f5d04987bac7c561a8cb863ee536d2ff13112f7133be0b5851c0a1f0304a18e4"
+    },
+    {
+      "path": "scripts/test_build_msi.py",
+      "sha256": "7cd4986406515a04d194acceb52b50daadf894356cbf42854f464369e0b61652"
+    },
+    {
+      "path": "scripts/test_deepseek_bridge.cjs",
+      "sha256": "41496ef2d6160eacf5ec7b34d5aa6049aa3a11ce06cfc4c4869b61a40cf7420c"
+    },
+    {
+      "path": "scripts/test_install_local_release.ps1",
+      "sha256": "15e865fbed231734d173ccad3989c4da96ff4f5e8e9a036bdce64db2bc381e3d"
+    },
+    {
+      "path": "scripts/test_verify_release.py",
+      "sha256": "47326af087e852765fd1a228722e4aff7c5c2f0016bb3818893f51ad33366819"
+    },
+    {
+      "path": "scripts/ui-coverage/Program.cs",
+      "sha256": "b06052255b775672b4a73cf32eee1d3fc9cbf7c266c5c3f49f5a8a2d50db1a68"
+    },
+    {
+      "path": "scripts/ui-coverage/UiCoverage.csproj",
+      "sha256": "9f2ad9c82f312c2311092b5115422172c6242dfa225ac27598c1f1f3487b65ab"
+    },
+    {
+      "path": "scripts/user-data-qa/Program.cs",
+      "sha256": "0e09b4615a789b49a83021b1822f37c2f614d258161c0b3a88a73e88a147889d"
+    },
+    {
+      "path": "scripts/user-data-qa/UserDataQa.csproj",
+      "sha256": "8baf8e30ad796eeeb9e96b3941baba4a58742739f1d9f67fa5d806dd74018345"
+    },
+    {
+      "path": "scripts/verification_contract.json",
+      "sha256": "55307c609a5103622a6ae11c4ad38d22df5c78f688822908d5d381435dbb6a43"
+    },
+    {
+      "path": "scripts/verify_canonical.py",
+      "sha256": "ae15a0963fe88eceb68910a0310096d181be7b896741d3782bf4dc6244f1422c"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "b7922408693fc0847a653b0aa38351a61254292114ae351e01f7230e67fe0df4"
+    }
+  ]
+}

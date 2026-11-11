@@ -1,0 +1,8 @@
+{
+  "version": "7.0.0",
+  "sourceUrl": "https://github.com/wixtoolset/wix/archive/refs/tags/v7.0.0.zip",
+  "archiveSha256": "1239d8baf2d70fcd6a43516a6649055f9fc59b816d0d2cdafe2b078e540e696f",
+  "uiSourceFiles": 123,
+  "uiSourceZipSha256": "408c798d2081213963518b3ac9edaae8800adefd14689045c4cdb67d4401ce73",
+  "uiExtensionSha256": "4c5755b16fc4e076ee574f7e4c3186d42fb9679d8eedb0249c0c9b67c76a070b"
+}
