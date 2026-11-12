@@ -37,6 +37,8 @@ jobs:
           python scripts/test_verify_release.py
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
           python scripts/test_build_msi.py
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          python scripts/test_cleanup_ci.py
           exit $LASTEXITCODE
       - name: Build clean public configuration
         run: |
@@ -51,6 +53,5 @@ jobs:
       - name: Remove owned output
         if: always()
         run: |
-          if ($env:INFINITY_CI_WORK) {
-            python -c "import os,pathlib,shutil; p=pathlib.Path(os.environ['INFINITY_CI_WORK']).resolve(); assert p.parent==pathlib.Path('C:/tmp') and p.name.startswith('Infinity-ci-'); assert not p.is_symlink(); shutil.rmtree(p) if p.exists() else None"
-          }
+          python scripts/cleanup_ci.py
+          exit $LASTEXITCODE

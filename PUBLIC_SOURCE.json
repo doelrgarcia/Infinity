@@ -1,5 +1,5 @@
 {
-  "canonicalRevision": "c5a30e827f9aaf873a88ad80ba1ac92b5c65044a",
+  "canonicalRevision": "f5fe055ae0a0c47e21fe9743a107a0a615bcb668",
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.md",
@@ -11,7 +11,7 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "sha256": "5f2871d25a16785550bc879ba3dd39cf9516545e7158312b787420edc61b5626"
+      "sha256": "2d5d3dfca1e7bf60544433e60ae71903f85d7c8db3655138c7696b631c15038d"
     },
     {
       "path": ".gitignore",
@@ -19,7 +19,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "1953fe8ee2852f392a6d1bdf1d16a23ee50388be441c68f06240ea94537f4fb1"
+      "sha256": "eaa97d3e5fe00fb10a0b521bbbfa5576c58845d0109ef63614903aef2880e0a0"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -731,7 +731,7 @@
     },
     {
       "path": "docs/PUBLIC_BETA.md",
-      "sha256": "ff3e0e6dca979ade19774c8c102677d1f8f124679d1140de0b2feff4681efb9a"
+      "sha256": "95f11880980f41201ebb36bfa1147d38bc316650ac376cb615953c09a70e493b"
     },
     {
       "path": "global.json",
@@ -814,12 +814,16 @@
       "sha256": "482dba0a741eaf0860f58100dc29cd29a66ff68ad08b2de36b7a39beb60be3b5"
     },
     {
+      "path": "scripts/cleanup_ci.py",
+      "sha256": "c37347fe42f6a3b5f1ce4e48bd8712cbae8fd7d5bbc09129ab477978754964fd"
+    },
+    {
       "path": "scripts/inspect_msi.py",
       "sha256": "f3da46da10f11220e06ef6ffdd1c9e870e71f4b9cd844758970b4f2d6d2c46de"
     },
     {
       "path": "scripts/prepare_public_source.py",
-      "sha256": "3e68d0fe5a78b98d4307d7dd4d04753027757945408718dc32792d5e6ff843f5"
+      "sha256": "9fce21e08b5d9043fe1988e81ba5be7d248d07c7de636a9da1f5419c0d6acdfd"
     },
     {
       "path": "scripts/reverify_release.py",
@@ -828,6 +832,10 @@
     {
       "path": "scripts/test_build_msi.py",
       "sha256": "7cd4986406515a04d194acceb52b50daadf894356cbf42854f464369e0b61652"
+    },
+    {
+      "path": "scripts/test_cleanup_ci.py",
+      "sha256": "ed0a832025a222376c5e57727de8e7381c04410b606ba4d1e6111fcbf4f5b2a9"
     },
     {
       "path": "scripts/test_deepseek_bridge.cjs",

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.26.1113-beta.2 — hosted CI cleanup correction
+
+- Handle read-only Git fixture files during bounded CI cleanup, without following junction targets or changing read-only hardlinks outside the owned directory.
+- Add six cleanup regression checks. The reviewed MSI/application binary is unchanged from beta 1.
+
 ## 1.26.1113-beta.1 — public beta candidate
 
 - Windows desktop projects with multiple named chats, connected folders, file previews, and reviewed coding actions.

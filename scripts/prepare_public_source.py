@@ -11,7 +11,7 @@ import subprocess
 ROOT_FILES = {".gitignore", "LICENSE", "README.md", "SECURITY.md", "CONTRIBUTING.md", "CHANGELOG.md", "THIRD_PARTY_NOTICES.md", "appsettings.example.json", "global.json", "NuGet.Config", "Launch.cmd", "launch-provider.ps1"}
 PREFIXES = ("LocalAI.Core/", "LocalAI.Desktop/", "LocalAI.CommandTests/", "LocalAI.ExtensionTests/", "LocalAI.FileTests/", "LocalAI.SourceTests/", "LocalAI.StartupTests/", "LocalAI.Tests/", "native/", "installer/", ".github/")
 DOCS = {"docs/BUILDING.md", "docs/PUBLIC_BETA.md"}
-SCRIPTS = {"scripts/verify_release.py", "scripts/verification_contract.json", "scripts/test_verify_release.py", "scripts/reverify_release.py", "scripts/verify_canonical.py", "scripts/build_msi.py", "scripts/test_build_msi.py", "scripts/inspect_msi.py", "scripts/test_install_local_release.ps1", "scripts/Install-LocalRelease.ps1", "scripts/test_deepseek_bridge.cjs", "scripts/prepare_public_source.py"}
+SCRIPTS = {"scripts/verify_release.py", "scripts/verification_contract.json", "scripts/test_verify_release.py", "scripts/reverify_release.py", "scripts/verify_canonical.py", "scripts/build_msi.py", "scripts/test_build_msi.py", "scripts/inspect_msi.py", "scripts/test_install_local_release.ps1", "scripts/Install-LocalRelease.ps1", "scripts/test_deepseek_bridge.cjs", "scripts/prepare_public_source.py", "scripts/cleanup_ci.py", "scripts/test_cleanup_ci.py"}
 SCRIPT_PREFIXES = ("scripts/user-data-qa/", "scripts/ui-coverage/")
 
 def allowed(name):

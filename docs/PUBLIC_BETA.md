@@ -1,6 +1,6 @@
 # Public beta scope
 
-Candidate version: **1.26.1113-beta.1** (MSI product version 1.26.1113).
+Candidate version: **1.26.1113-beta.2** (MSI product version 1.26.1113).
 
 Infinity targets Windows 11 x64. The application is self-contained; building requires .NET 10 SDK. Inference and optional tools require additional downloads, compatible drivers, and their own license/account terms. Selecting all model/tool packages uses tens of GiB; Startup setup displays exact sizes before approval. Leave additional space for staging and model loading. Memory needs depend on model, context length, and GPU offload; the 30B default is not suitable for every PC. Choose the smaller 7B option if necessary. Hybrid NPU inference is specific to compatible AMD hardware.
 
